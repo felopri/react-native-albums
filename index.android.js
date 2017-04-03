@@ -4,6 +4,7 @@
  * @flow
  */
 
+// Import a library to help create a component
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -12,6 +13,7 @@ import {
   View
 } from 'react-native';
 
+//Create the component
 export default class albums extends Component {
   render() {
     return (
@@ -50,4 +52,5 @@ const styles = StyleSheet.create({
   },
 });
 
+//Redent it to the device
 AppRegistry.registerComponent('albums', () => albums);
