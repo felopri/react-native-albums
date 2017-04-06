@@ -52,5 +52,5 @@ const styles = StyleSheet.create({
   },
 });
 
-//Redent it to the device
+//Redenr it to the device
 AppRegistry.registerComponent('albums', () => albums);
