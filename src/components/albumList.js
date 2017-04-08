@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
 import axios from 'axios';
-import AlbumDetail from './albumDetail';
+import AlbumDetail from './AlbumDetail';
 
 //Create the component
 class AlbumList extends Component {
